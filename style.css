@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+    font-size: 3em;
+}
+
+span{
+    background: linear-gradient(220.55deg, #FFD439 0%, #ffae00 100%);
+    padding: 0 10px 0 10px;
+    color: white;
+}
+
+.cepContainer{
+    margin: 1rem 0 2rem 0;
+    display: flex;
+}
+
+.cep{
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.buscar{
+    width: 150px;
+    border: none;
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buscar:hover{
+    font-size: 1.1rem;
+}
+
+.cepInfo{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 1%;
+}
+
+.cepDetalhes{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.bairro{
+    font-size: 1.5rem;
+}
+.localidade{
+    font-size: 1.5rem;
+}
+.logradouro{
+    font-size: 1.5rem;
+}
+.uf{
+    font-size: 1.5rem;
+}
+.ddd{
+    font-size: 1.5rem;
+}
+
+
+
+.hide{
+    display: none;
+}

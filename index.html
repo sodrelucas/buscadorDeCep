@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Buscar <span>CEP</span></h1>
+        <section class="cepContainer">
+            <input class="cep" type="text" placeholder="CEP">
+            <button class="buscar">Buscar</button>
+        </section>
+        <section class="cepInfo hide">
+            <div class="cepDetalhes">
+                <label for="localidade">Localidade</label>
+                <input class="localidade" type="text">
+            </div>
+            <div class="cepDetalhes">
+                <label for="bairro">Bairro</label>
+                <input class="bairro" type="text">
+            </div>
+            <div class="cepDetalhes">
+                <label for="logradouro">Logradouro</label>
+                <input class="logradouro" type="text">
+            </div>
+            <div class="cepDetalhes">
+                <label for="uf">UF</label>
+                <input class="uf" type="text">
+            </div>
+            <div class="cepDetalhes">
+                <label for="ddd">DDD</label>
+                <input class="ddd" type="text">
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
